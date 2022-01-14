@@ -20,7 +20,7 @@ class Place:
 
 class WinSearch:
 
-    def glob_search(self, *globs, places, **kwargs):
+    def glob_search(self, *globs, places=Place.ALL, **kwargs):
         """Returns a glob search result on given places.
 
         Args:
